@@ -1,0 +1,76 @@
+h1 {
+    font-size: 70px;
+    font-family: cursive;
+   text-align: center;
+}
+body {
+    background-image: url("../images/mountain.jpg") ; /* file path */
+    background-size: cover; /* Resize the background image to cover the entire page */
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    height: 100%;
+
+}
+body.about{
+    background-image: none;
+    background-color: lightsteelblue;
+}
+p {
+    text-align: center;
+    font-size: 30px;
+}
+.sneak {
+    text-align: left;
+    font-size: 18px;}
+.quote{
+    text-align: right;
+    font-size: 18px;
+}
+
+blockquote {
+    text-align: right;
+    color: darkseagreen;
+    font-size:18px;
+}
+a:link,a:visited, a:hover,a:active
+{
+    font-size: 20px;
+    padding : 30px 1400px;
+    color: darkseagreen;
+}
+body.blog {
+    background-image: none;
+    background-color: azure;
+}
+p.bali {
+    text-align: left;
+    font-size: 18px;
+    font-family:serif;
+    color: darkslateblue;
+}
+h3 {
+    font-size: 25px;
+}
+h4 {
+    padding-top: 350px; /*to move text below*/
+    font-size: 20px;
+}
+
+h5{
+    font-size: 20px;
+}
+h6{
+    font-size: 20px;
+}
+button {
+    background-color: black;
+    color: floralwhite;
+}
+table, th, td {
+  border: 1px solid black;
+}
+figcaption{
+    padding-top: 280px;
+    font-size: 15px;
+    font: normal;
+}
